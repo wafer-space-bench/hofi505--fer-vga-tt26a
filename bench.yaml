@@ -1,0 +1,27 @@
+source:
+  url: https://github.com/hofi505/fer-vga-tt26a
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26a
+  slot: tt_um_fer_logo_music_vga
+  project: UNIZG-FER VGA project
+  size: 1x1
+  kind: digital (Verilog)
+  commit: bd18ccd98aa837ae22063ad599a4f30863743a2e
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26a/tt_um_fer_logo_music_vga
+  branch: tapeout/tinytapeout/ttgf26a/tt_um_fer_logo_music_vga
+  page: https://app.tinytapeout.com/shuttles/ttgf26a
+generated: '2026-10-17T23:46:21Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26a/tt_um_fer_logo_music_vga
+- upstream/just_fer
+- upstream/main
